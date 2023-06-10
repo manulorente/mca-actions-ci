@@ -17,3 +17,30 @@ Push changes to develop branch to trigger the workflow:
 ```sh
     git push --set-upstream origin develop
 ```
+
+Create new feature branch:
+
+```sh
+    git flow feature start break-lines
+```  
+
+Modify version in pom.xml file and add functionality:
+
+```sh
+    <version>0.2.0-SNAPSHOT</version>
+```  
+
+Commit changes:
+
+```sh
+    git add src/test/java/es/urjc/code/daw/library/unitary/LineBreakerUnitaryTest.java 
+    git add src/main/java/es/urjc/code/daw/library/book/LineBreaker.java
+    git commit -m "Add line breaker tests"
+    git push --set-upstream origin feature/break-lines
+    git add src/main/java/es/urjc/code/daw/library/book/BookService.java
+    git commit -m "Add line breaker functionality"
+    git push --set-upstream origin feature/break-lines
+```  
+
+Create pull request to merge feature branch into develop branch. Once the pull request is approved, the workflow will be triggered and the artifact will be deployed.
+
