@@ -12,4 +12,8 @@ Once workflows are defined, we can start developing our application. We will use
     git flow init -d
 ```
 
-....
+Push changes to develop branch to trigger the workflow:
+
+```sh
+    git push --set-upstream origin develop
+```
