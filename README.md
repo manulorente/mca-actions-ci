@@ -58,6 +58,6 @@ Create release branch tagging the current version:
 
 [Workflow 3](https://github.com/manulorente/mca-4.2-manuel.lorentea-juanangel.garridol-2023-ci/actions/runs/5232217661)
 
-[Workflow 4]()
+[Workflow 4](https://github.com/manulorente/mca-4.2-manuel.lorentea-juanangel.garridol-2023-ci/actions/runs/5232439776)
 
 [Workflow 5](https://github.com/manulorente/mca-4.2-manuel.lorentea-juanangel.garridol-2023-ci/actions/runs/5232235898)
