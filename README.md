@@ -1,4 +1,4 @@
-# Practica CI/CD
+# CI/CD Assignment 01
 
 Authors: Manuel Lorente Almán -y Juan Ángel garrido Lupiañez
 

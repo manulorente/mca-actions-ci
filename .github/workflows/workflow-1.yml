@@ -1,4 +1,4 @@
-name: Unit test and API rest test for features
+name: Workflow 1 - Unit test and API rest test for features
 
 on: 
     push:

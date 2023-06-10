@@ -1,4 +1,4 @@
-name: All tests when commit into develop branch
+name: Workflow 2 - All tests when commit into develop branch
 
 on: 
     push:

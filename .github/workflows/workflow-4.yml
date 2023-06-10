@@ -1,4 +1,4 @@
-name: All unit tests and rest tests on commit into release branch
+name: Workflow 4 - All unit tests and rest tests on commit into release branch
 
 on: 
     push:

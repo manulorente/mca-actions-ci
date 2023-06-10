@@ -1,4 +1,4 @@
-name: All unit tests and rest tests on commit into release branch
+name: Workflow 5 - All unit tests and rest tests on commit into production
 
 on: 
     pull_request:

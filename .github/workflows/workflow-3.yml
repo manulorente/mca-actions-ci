@@ -1,4 +1,4 @@
-name: Nightly build
+name: Workflow 3 - Nightly build
 
 on: 
     schedule:
