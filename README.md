@@ -1,12 +1,12 @@
 # Practica CI/CD
 
-Autor(es): Michel Maes Bermejo y Francisco Gortázar Bellas
+Authors: Manuel Lorente Almán -y Juan Ángel garrido Lupiañez
 
-[Repositorio (CAMBIAR ENLACE)](https://github.com/MasterCloudApps/Template-CI-CD)
+[Repository](https://github.com/manulorente/mca-4.2-manuel.lorentea-juanangel.garridol-2023-ci)
 
-## Desarrollo con GitFlow
+## GitFlow development
 
-Una vez creados los workflows y funcionando estos, pasamos a crear la nueva funcionalidad utilizando Gitflow:
+Once workflows are defined, we can start developing our application. We will use GitFlow as a branching model. This model is based on two main branches with infinite life:
 
 ```
 $ git clone ...
