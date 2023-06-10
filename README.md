@@ -17,3 +17,9 @@ Push changes to develop branch to trigger the workflow:
 ```sh
     git push --set-upstream origin develop
 ```
+
+Create new feature branch:
+
+```sh
+    git flow feature start break-lines
+```
