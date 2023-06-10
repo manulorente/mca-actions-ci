@@ -46,7 +46,18 @@ Commit changes and finish feature branch:
 Create release branch tagging the current version:
 
 ```sh
-    git flow release start 0.2.0
-    git flow release finish -k 0.2.0
+    git flow release start 0.3.0
+    git flow release finish -k 0.3.0
 ```
 
+## GitHub Actions workflows
+
+[Workflow 1](https://github.com/manulorente/mca-4.2-manuel.lorentea-juanangel.garridol-2023-ci/actions/runs/5232297846)
+
+[Workflow 2](https://github.com/manulorente/mca-4.2-manuel.lorentea-juanangel.garridol-2023-ci/actions/runs/5232343909)
+
+[Workflow 3](https://github.com/manulorente/mca-4.2-manuel.lorentea-juanangel.garridol-2023-ci/actions/runs/5232217661)
+
+[Workflow 4]()
+
+[Workflow 5](https://github.com/manulorente/mca-4.2-manuel.lorentea-juanangel.garridol-2023-ci/actions/runs/5232235898)
