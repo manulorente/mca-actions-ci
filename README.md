@@ -30,7 +30,7 @@ Modify version in pom.xml file and add functionality:
     <version>0.2.0-SNAPSHOT</version>
 ```  
 
-Commit changes:
+Commit changes and finish feature branch:
 
 ```sh
     git add src/test/java/es/urjc/code/daw/library/unitary/LineBreakerUnitaryTest.java 
@@ -40,7 +40,12 @@ Commit changes:
     git add src/main/java/es/urjc/code/daw/library/book/BookService.java
     git commit -m "Add line breaker functionality"
     git push --set-upstream origin feature/break-lines
+    git flow feature finish -k break-lines
 ```  
 
-Create pull request to merge feature branch into develop branch. Once the pull request is approved, the workflow will be triggered and the artifact will be deployed.
+Create release branch:
+
+```sh
+    git flow release start 0.2.0
+```
 
