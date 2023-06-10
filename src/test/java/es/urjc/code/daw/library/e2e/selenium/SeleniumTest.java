@@ -40,7 +40,8 @@ public class SeleniumTest {
 	public void setupTest() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
-        this.driver = new ChromeDriver(options);
+        this.driver = new ChromeDriver(options);        
+        this.wait = new WebDriverWait(this.driver, Duration.ofSeconds(10));
 	}
 
 	@AfterEach
