@@ -3,7 +3,7 @@ name: Workflow 4 - All unit tests and rest tests on commit into release branch
 on: 
     push:
         branches: 
-            - 'release/**'
+            - release/*
         paths:
             - 'src/**'
             - 'pom.xml'
