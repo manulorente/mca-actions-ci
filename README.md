@@ -43,9 +43,10 @@ Commit changes and finish feature branch:
     git flow feature finish -k break-lines
 ```  
 
-Create release branch:
+Create release branch tagging the current version:
 
 ```sh
     git flow release start 0.2.0
+    git flow release finish -k 0.2.0
 ```
 
