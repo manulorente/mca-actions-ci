@@ -25,14 +25,14 @@ jobs:
               run: mvn clean install -DskipTests
 
             - name: Setup tests scripts
-              run: chmod +x ./../../scripts/*.sh
+              run: chmod +x ./scripts/*.sh
 
             - name: Unit tests
-              run: ./../../scripts/run-unit-tests.sh
+              run: ./scripts/run-unit-tests.sh
 
             - name: API rest tests
-              run: ./../../scripts/run-rest-tests.sh
+              run: ./scripts/run-rest-tests.sh
             
             - name: Selenium tests
-              run: ./../../scripts/run-selenium-tests.sh
+              run: ./scripts/run-selenium-tests.sh
             
